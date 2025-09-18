@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: demo-api
-          image: aksdemo2025registry.azurecr.io/demo-api:latest
+          image: aksdemo2025registry.azurecr.io/demo-api:0.0.1
           ports:
             - containerPort: 8080
           env:
